@@ -2,6 +2,27 @@
 
 under contruction ...
 
+
+## clone a repo
+```bash
+git clone <url>/project
+cd  project
+git remote add upstream <urlupstream>
+git pull --rebase upstream master
+```
+
+
+
+## squash
+
+```bash
+git rebase -i HEAD~3
+
+s to keep the commit but merge it
+
+git push -f upstream master
+```
+
 ## diff
 
 ```bash

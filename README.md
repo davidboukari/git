@@ -19,7 +19,13 @@ git add myfile
 git reset myfile
 ```
 
-## squash
+## Update the last commit
+```
+git commit --amend -m "New commit message."
+git push -f branchname
+```
+
+## squash (merge commits & messages)
 
 ```bash
 git rebase -i HEAD~3

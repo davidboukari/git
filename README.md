@@ -11,15 +11,19 @@ git remote add upstream <urlupstream>
 git pull --rebase upstream master
 ```
 
+## git add or reset to unadd
+```
+git add myfile
 
+# unadd = reset
+git reset myfile
+```
 
 ## squash
 
 ```bash
 git rebase -i HEAD~3
-
 s to keep the commit but merge it
-
 git push -f upstream master
 ```
 
@@ -27,22 +31,17 @@ git push -f upstream master
 
 ```bash
 git diff origin/branch1 origin/branch2...
-
 git diff tag1 tag2 --
-
-
 git diff tag1 tag2 -- | git apply
 ```
 
 ## patch
-
 ```bash
 git diff tag1 tag2 -- > mypatch.patch
 patch -i < mypatch
 ```
 
 ## git revert for Rollback
-
 ```bash
 # See the log for a file
 git log -- ./myfile

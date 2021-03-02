@@ -58,3 +58,23 @@ git diff <version1> <version2> -- ./myfile
 # See the changes to go from a version to a version for a file between 2 versions and apply it
 git diff <version1> <version2> -- ./myfile | git apply
 ```
+
+## Reset to a revision
+```
+reset --hard HEAD
+```
+
+
+## fetch
+* Get the missing commit but not merge to the local branch, need to go git merge after to merge them
+```
+git fetch origin main
+
+```
+
+## pull
+* Get the missing commit and merge automaticaly to the local branch
+```
+git pull origin main
+git pull --rebase upstream master
+```

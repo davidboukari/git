@@ -68,8 +68,12 @@ reset --hard HEAD
 ## fetch
 * Get the missing commit but not merge to the local branch, need to go git merge after to merge them
 ```
-git fetch origin main
-
+# Get the into local origin/master the commit
+git fetch origin master
+git  branch -a
+git log --oneline master...origin/master
+git diff master...origin/master
+git merge origin/master master
 ```
 
 ## pull

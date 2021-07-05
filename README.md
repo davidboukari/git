@@ -82,3 +82,9 @@ git merge origin/master master
 git pull origin main
 git pull --rebase upstream master
 ```
+
+## git tag
+```
+git tag v0.0.1
+git tag --list
+```

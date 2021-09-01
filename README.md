@@ -88,3 +88,9 @@ git pull --rebase upstream master
 git tag v0.0.1
 git tag --list
 ```
+
+## Delete
+```
+git branch -D mybranch
+git push origin --delete mybranch
+```

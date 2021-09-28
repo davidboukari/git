@@ -37,8 +37,9 @@ git push -f upstream master
 
 ```bash
 git diff origin/branch1 origin/branch2...
-git diff tag1 tag2 --
-git diff tag1 tag2 -- | git apply
+git diff tag1 tag2 
+git diff tag1 tag2 | git apply --
+git diff origin/master origin/dev | git apply --
 ```
 
 ## patch

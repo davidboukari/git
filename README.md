@@ -94,3 +94,10 @@ git tag --list
 git branch -D mybranch
 git push origin --delete mybranch
 ```
+
+## git diff 
+```
+git diff origin/master origin/branch1 --name-only
+
+```
+

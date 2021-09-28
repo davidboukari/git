@@ -38,8 +38,11 @@ git push -f upstream master
 ```bash
 git diff origin/branch1 origin/branch2...
 git diff tag1 tag2 
+git diff origin/master origin/branch1 --name-only
+git diff origin/master rev1 origin/dev rev2 --name-only
 git diff tag1 tag2 | git apply --
 git diff origin/master origin/dev | git apply --
+
 ```
 
 ## patch
@@ -94,11 +97,5 @@ git tag --list
 ```
 git branch -D mybranch
 git push origin --delete mybranch
-```
-
-## git diff 
-```
-git diff origin/master origin/branch1 --name-only
-
 ```
 

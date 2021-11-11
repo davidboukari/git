@@ -2,6 +2,23 @@
 
 under contruction ...
 
+## git log all commit
+```
+git log --oneline
+9f4fd81 (HEAD) Add new path echo
+d5332e3 (origin/swagger/v0.1.0) dependency:tree
+2814210 (origin/master, master) Update doc
+9aa7418 Initial commit
+
+but to see all commit
+
+git log --oneline --all
+415581d (swagger/v0.1.0) Just to back up does not work
+9f4fd81 (HEAD) Add new path echo
+d5332e3 (origin/swagger/v0.1.0) dependency:tree
+2814210 (origin/master, master) Update doc
+9aa7418 Initial commit
+```
 
 ## clone a repo
 ```bash

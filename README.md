@@ -108,6 +108,9 @@ git pull --rebase upstream master
 ```
 git tag v0.0.1
 git tag --list
+
+# Tag a specific commit
+git tag -a "v1.1.1" eb45467af765
 ```
 
 ## Delete

@@ -1,6 +1,11 @@
 # git
 
-under contruction ...
+## Restore deleted file
+* Restaure a delete Jenkinsfile
+```
+git checkout HEAD -- Jenkinsfile
+```
+
 
 ## git log all commit
 ```

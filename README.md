@@ -55,6 +55,17 @@ s to keep the commit but merge it
 git push -f upstream master
 ```
 
+## diff get files from other branch
+```
+git diff ...mysourcebranch --name-only
+file1
+file2
+
+git diff ...mysourcebranch -- file1 
+
+git diff ...mysourcebranch -- file1  | git apply --
+```
+
 ## diff
 
 ```bash

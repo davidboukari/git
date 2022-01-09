@@ -6,6 +6,14 @@
 git checkout HEAD -- Jenkinsfile
 ```
 
+## clone specific branch
+```
+git clone --branch <branchname> <remote-repo-url>
+
+or
+
+git clone -b <branchname> <remote-repo-url>
+```
 
 ## git log all commit
 ```

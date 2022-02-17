@@ -21,7 +21,7 @@ git fetch
 
 
 ## Restore deleted file
-* Restaure a delete Jenkinsfile
+* Restore a delete Jenkinsfile
 ```
 git checkout HEAD -- Jenkinsfile
 ```

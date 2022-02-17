@@ -1,5 +1,25 @@
 # git
 
+## git diff branch.. (check all files also new files)
+```
+git diff origin/branch..
+git diff origin/branch..testbranch
+```
+
+## git diff branch... (check only the same file)
+```
+git diff origin/branch...
+git diff origin/branch...testbranch
+```
+
+## get fetch
+```
+# Get all update from remote branches remote/origin/.... after that just have to do the git diff remote/origin/branch..  
+git fetch 
+
+```
+
+
 ## Restore deleted file
 * Restaure a delete Jenkinsfile
 ```

@@ -59,6 +59,8 @@ git clone <url>/project
 cd  project
 git remote add upstream <urlupstream>
 git pull --rebase upstream master
+
+git pull origin master
 ```
 
 ## git add or reset to unadd

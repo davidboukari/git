@@ -1,5 +1,8 @@
 # git
 
+## gitignore
+* https://github.com/github/gitignore
+
 ## git diff branch.. (check all files also new files)
 ```
 git diff origin/branch..

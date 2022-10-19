@@ -1,5 +1,10 @@
 # git
 
+## change current branch name
+```
+git branch -m new-branch-name
+```
+
 ## gitignore
 * https://github.com/github/gitignore
 

@@ -1,5 +1,10 @@
 # git
 
+## git config
+```
+ git config --global core.editor "nano"
+```
+
 ## change current branch name
 ```
 git branch -m new-branch-name

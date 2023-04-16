@@ -10,6 +10,12 @@
 git branch -m new-branch-name
 ```
 
+# Reset to a commit version
+```
+git reset --hard 0d1d7fc32
+```
+
+
 ## gitignore
 * https://github.com/github/gitignore
 

@@ -1,5 +1,10 @@
 # git
 
+## git checkout a file
+```
+git checkout HEAD -- my-file.txt
+```
+
 ## git config
 ```
  git config --global core.editor "nano"

@@ -87,6 +87,17 @@ git pull --rebase upstream master
 git pull origin master
 ```
 
+## rebase
+```
+git pull --rebase origin main
+
+# if the update in the tmp branch do continue
+git rebase --continue
+
+git commit -am "xxxxx"
+git push origin main
+```
+
 ## git add or reset to unadd
 ```
 git add myfile
